@@ -80,6 +80,15 @@ img {
 	max-width: 100%;
 }
 
+.mobile {
+	display: none;
+	margin: 15rem auto !important;
+}
+
+.mb-5 {
+	margin-bottom: 5rem !important;
+}
+
 .mb-8 {
 	margin-bottom: 8rem !important;
 }
@@ -94,7 +103,7 @@ img {
 
 .navbar-light .navbar-nav .nav-link {
     color: #222;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     padding-left: 1rem;
     padding-right: 1rem; 
@@ -106,6 +115,10 @@ img {
     transition: 0.5s;
 }
 
+.navbar-nav .nav-item {
+	text-align: center;
+}
+
 .navbar-brand img {
 	height: 60px;
 }
@@ -113,8 +126,8 @@ img {
 .container {
 	width: 100%;
 	max-width: 1790px;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
 	margin: auto;
 	text-align: left;
 }
@@ -139,7 +152,7 @@ img {
   background-color: #1b53ee;
   border: 2px solid #1b53ee !important;
   color: white;
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -200,7 +213,7 @@ img {
 	height: 100%;
 }
 
-.header-caption .row .col-xl {
+.header-caption .row .col-lg {
 	margin: auto;
 }
 
@@ -224,9 +237,17 @@ img {
 	color: #222222;
 }
 
-.content-title {
+.section-title {
 	color: #222;
 	font-size: 4.75rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	text-align: left;
+}
+
+.content-title {
+	color: #222;
+	font-size: 4rem;
 	font-weight: 600;
 	margin-bottom: 2rem;
 	text-align: left;
@@ -240,12 +261,15 @@ img {
 
 .content-body {
 	font-size: 1.825rem;
-	font-weight: 300;
 	margin-bottom: 2rem;
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
-.about .col-md-3 {
+.about {
+	padding-top: 5rem;
+}
+
+.about .col-lg-3 {
 	margin: 5rem 0;
 	border-radius: 6px;
 	width: 100%;
@@ -274,7 +298,7 @@ img {
 .about-card {
 	border-radius: 5px;
 	height: 100%;
-	padding: 0 3rem;
+	padding: 0;
 }
 
 .about-card-down {
@@ -293,6 +317,7 @@ img {
 }
 
 .about-card-text {
+	font-size: 1.05rem;
 	opacity: 0.5;
 }
 
@@ -310,11 +335,12 @@ img {
 
 .projects .col-lg-6 .content-title {
     font-weight: 500;
-    font-size: 4.25rem;
+    font-size: 4rem;
 }
 
 .projects img {
 	border-radius: 60px;
+	padding-bottom: 2rem;
 }
 
 .projects-cta {
@@ -329,6 +355,7 @@ img {
   overflow: hidden;
   text-decoration: none;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .projects-cta a:hover {
@@ -373,3 +400,324 @@ footer .fab:hover {
 footer .container {
 	text-align: center;
 }
+
+@media (min-width:0px) and (max-width:355px) {
+	/* Smaller tablets @ 600 or @ 640 wide. */
+	html {
+		font-size: 9px;
+	}
+	.mobile {
+		display: inherit;
+	}
+	.navbar-brand img {
+		height: 55px;
+	}
+	.no-mobile {
+		display: none;
+	}
+	.header-content {
+		padding: 3rem 0;
+	}
+	.header-caption {
+		margin-top: 15rem;
+		margin-bottom: 10rem;
+	}
+	.header-title {
+		font-size: 4rem;
+	}
+	.content-title {
+		font-size: 2.725rem !important;
+	}
+	.about-card-title {
+		font-size: 2.425rem;
+	}
+	.about-card-text {
+		font-size: 1.3rem;
+	}
+	.about .row {
+		max-width: 500px;
+		margin: auto;
+	}
+	.about-card {
+		padding: 0;
+	}
+	.about-card-down {
+		margin-top: 0;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 1.325rem; 
+	}
+	.projects .row {
+		max-width: 600px;
+		margin: auto;
+	}
+}
+
+@media (min-width:356px) and (max-width:511px) {
+	/* Smaller tablets @ 600 or @ 640 wide. */
+	html {
+		font-size: 10.5px;
+	}
+	.mobile {
+		display: inherit;
+	}
+	.navbar-brand img {
+		height: 55px;
+	}
+	.no-mobile {
+		display: none;
+	}
+	.header-content {
+		padding: 3rem 0;
+	}
+	.header-caption {
+		margin-top: 15rem;
+		margin-bottom: 10rem;
+	}
+	.header-title {
+		font-size: 4rem;
+	}
+	.content-title {
+		font-size: 2.325rem !important;
+	}
+	.content-body {
+		font-size: 1.525rem;
+	}
+	.about-card-title {
+		font-size: 2.425rem;
+	}
+	.about-card-text {
+		font-size: 1.3rem;
+	}
+	.about .row {
+		max-width: 500px;
+		margin: auto;
+	}
+	.about-card {
+		padding: 0;
+	}
+	.about-card-down {
+		margin-top: 0;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 1.325rem; 
+	}
+	.projects .row {
+		max-width: 600px;
+		margin: auto;
+	}
+}
+
+@media (min-width:512px) and (max-width:763px) {
+	/* Smaller tablets @ 600 or @ 640 wide. */
+	html {
+		font-size: 12px;
+	}
+	.mobile {
+		display: inherit;
+	}
+	.navbar-brand img {
+		height: 55px;
+	}
+	.no-mobile {
+		display: none;
+	}
+	.header-content {
+		padding: 3rem 0;
+	}
+	.header-caption {
+		margin-top: 15rem;
+		margin-bottom: 10rem;
+	}
+	.header-title {
+		font-size: 4rem;
+	}
+	.content-title {
+		font-size: 2.725rem !important;
+	}
+	.about-card-title {
+		font-size: 2.425rem;
+	}
+	.about-card-text {
+		font-size: 1.3rem;
+	}
+	.about .row {
+		max-width: 500px;
+		margin: auto;
+	}
+	.about-card {
+		padding: 0;
+	}
+	.about-card-down {
+		margin-top: 0;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 1.325rem; 
+	}
+	.projects .row {
+		max-width: 600px;
+		margin: auto;
+	}
+}
+
+@media (min-width:764px) and (max-width:991px) {
+	/* Desktop - Laptops* --- bre */
+	html {
+	  font-size: 12px;
+	}
+	.mobile {
+		display: inherit;
+	}
+	.no-mobile {
+		display: none;
+	}
+	.header-content {
+		padding-bottom: 5rem;
+	}
+	.header-caption {
+		margin-top: 15rem;
+		margin-bottom: 10rem;
+	}
+	.header-title {
+		font-size: 7rem;
+	}
+	.header-subtitle {
+		font-size: 2rem;
+	}
+	.content-title {
+		font-size: 4rem !important;
+	}
+	.about-card {
+		padding: 0;
+	}
+	.about-card .about-card-down {
+		margin-top: 0;
+	}
+	.about-card-title {
+		font-size: 2.425rem;
+	}
+	.about-card-text {
+		font-size: 1.3rem;
+	}
+	.content-body {
+		font-size: 1.865rem;
+	}
+	.about .row {
+		max-width: 500px;
+		margin: auto;
+	}
+	.about .col-lg-3 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.about-card-text {
+		font-size: 1.225rem;
+	}
+	.projects .row {
+		max-width: 600px;
+		margin: auto;
+	}
+}
+
+@media (min-width:992px) and (max-width:1100px) {
+	/* Desktop - Laptops* --- bre */
+	html {
+	  font-size: 12px;
+	}
+	.header-title {
+		font-size: 5rem;
+	}
+	.content-title {
+		font-size: 3rem !important;
+	}
+	.about-card {
+		padding: 0;
+	}
+	.content-title {
+		font-size: 3.8rem;
+	}
+	.content-body {
+		font-size: 1.8rem;
+	}
+	.about .col-lg-3 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.about-card-text {
+		font-size: 1.225rem;
+	}
+}
+
+@media (min-width:1101px) and (max-width:1280px) {
+	/* Desktop - Laptops* --- bre */
+	html {
+	  font-size: 12px;
+	}
+	.header-title {
+		font-size: 5.625rem;
+	}
+	.content-title {
+		font-size: 4.25rem;
+	}
+	.content-body {
+		font-size: 1.8rem;
+	}
+	.about-card {
+		padding: 0;
+	}
+	.projects .col-lg-6 .content-title {
+		font-size: 3.525rem;
+	}
+	.about .col-lg-3 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.about-card-text {
+		font-size: 1.225rem;
+	}
+}
+  
+@media (min-width:1281px) and (max-width:1530px) {
+	/* Desktop - Laptops*/
+	html {
+		font-size: 14px;
+	}
+	.header-title {
+		font-size: 5.625rem;
+	}
+	.content-title {
+		font-size: 4.25rem;
+	}
+	.about-card {
+		padding: 0 1rem;
+	}
+	.projects .col-lg-6 .content-title {
+		font-size: 3.525rem;
+	}
+	.content-body {
+		font-size: 1.565rem;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 1.3rem; 
+	}
+}
+
+@media (min-width:1531px) and (max-width:1612px) {
+	/* Desktop - Laptops*/
+	html {
+	  font-size: 15px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 1.2rem; 
+	}
+  }
+  
+  @media (min-width:1613px) {
+	/* Hi-res monitors and desktops */
+	html {
+	  font: 16px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 1.2rem; 
+	}
+  }
