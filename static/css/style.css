@@ -241,15 +241,15 @@ img {
 
 .section-title {
 	color: #222;
-	font-size: 4.75rem;
-	font-weight: 600;
+	font-size: 2.475rem;
+	font-weight: bold;
 	margin-bottom: 2rem;
 	text-align: left;
 }
 
 .content-title {
 	color: #222;
-	font-size: 4rem;
+	font-size: 1.625rem;;
 	font-weight: 600;
 	margin-bottom: 2rem;
 	text-align: left;
@@ -262,7 +262,7 @@ img {
 }
 
 .content-body {
-	font-size: 1.825rem;
+	font-size: 1.25rem;
 	margin-bottom: 2rem;
 	opacity: 0.5;
 }
@@ -337,7 +337,7 @@ img {
 
 .projects .col-lg-6 .content-title {
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 1.625rem;
 }
 
 .projects img {
@@ -428,7 +428,7 @@ footer .container {
 		font-size: 4rem;
 	}
 	.content-title {
-		font-size: 2.725rem !important;
+		font-size: 1.625rem !important;
 	}
 	.about-card-title {
 		font-size: 2.425rem;
@@ -480,10 +480,10 @@ footer .container {
 		font-size: 4rem;
 	}
 	.content-title {
-		font-size: 2.325rem !important;
+		font-size: 1.625rem !important;
 	}
 	.content-body {
-		font-size: 1.525rem;
+		font-size: 1.25rem;
 	}
 	.about-card-title {
 		font-size: 2.425rem;
@@ -535,7 +535,7 @@ footer .container {
 		font-size: 4rem;
 	}
 	.content-title {
-		font-size: 2.725rem !important;
+		font-size: 1.625rem !important;
 	}
 	.about-card-title {
 		font-size: 2.425rem;
@@ -587,7 +587,7 @@ footer .container {
 		font-size: 1.2rem;
 	}
 	.content-title {
-		font-size: 4rem !important;
+		font-size: 1.625rem !important;
 	}
 	.about-card {
 		padding: 0;
@@ -602,7 +602,7 @@ footer .container {
 		font-size: 1.3rem;
 	}
 	.content-body {
-		font-size: 1.865rem;
+		font-size: 1.25rem;
 	}
 	.about .row {
 		max-width: 500px;
@@ -630,16 +630,13 @@ footer .container {
 		font-size: 5rem;
 	}
 	.content-title {
-		font-size: 3rem !important;
+		font-size: 2.275rem !important;
 	}
 	.about-card {
 		padding: 0;
 	}
-	.content-title {
-		font-size: 3.8rem;
-	}
 	.content-body {
-		font-size: 1.8rem;
+		font-size: 1.25rem;
 	}
 	.about .col-lg-3 {
 		padding-left: 1rem;
@@ -659,16 +656,16 @@ footer .container {
 		font-size: 5.625rem;
 	}
 	.content-title {
-		font-size: 4.25rem;
+		font-size: 2.275rem;
 	}
 	.content-body {
-		font-size: 1.8rem;
+		font-size: 1.25rem;
 	}
 	.about-card {
 		padding: 0;
 	}
 	.projects .col-lg-6 .content-title {
-		font-size: 3.525rem;
+		font-size: 2.275rem;
 	}
 	.about .col-lg-3 {
 		padding-left: 1rem;
@@ -688,16 +685,16 @@ footer .container {
 		font-size: 5.625rem;
 	}
 	.content-title {
-		font-size: 4.25rem;
+		font-size: 2.275rem;
 	}
 	.about-card {
 		padding: 0 1rem;
 	}
 	.projects .col-lg-6 .content-title {
-		font-size: 3.525rem;
+		font-size: 1.625rem;
 	}
 	.content-body {
-		font-size: 1.565rem;
+		font-size: 1.25rem;
 	}
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 1.3rem; 
