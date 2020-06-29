@@ -30,6 +30,7 @@ body {
 	font-size: 16px;
 	overflow-x: hidden;
 	background-color: #fefefe;
+	min-height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -245,7 +246,7 @@ img {
 
 .section-title {
 	color: #222;
-	font-size: 2.475rem;
+	font-size: 2.225rem;
 	font-weight: bold;
 	margin-bottom: 0.5rem;
 	text-align: left;
@@ -369,6 +370,12 @@ img {
 	transition: 0.5s;
 }
 
+.manifesto {
+	min-height: 90vh;
+	max-width: 850px;
+	margin: auto
+}
+
 .footer p {
   color: #fff;
 }
@@ -384,6 +391,14 @@ img {
 
 .footer-content {
 	margin: auto !important;
+}
+
+.footer-social-links {
+	font-size: 2rem;
+}
+
+.fab {
+	width: auto !important;
 }
 
 footer .fab {
@@ -629,6 +644,9 @@ footer .container {
 	html {
 	  font-size: 12px;
 	}
+	.no-desktop {
+		display: none;
+	}
 	.header-title {
 		font-size: 3rem;
 	}
@@ -648,12 +666,18 @@ footer .container {
 	.about-card-text {
 		font-size: 1.225rem;
 	}
+	.section-title {
+		font-size: 2.475rem;
+	}
 }
 
 @media (min-width:1101px) and (max-width:1280px) {
 	/* Desktop - Laptops* --- bre */
 	html {
 	  font-size: 12px;
+	}
+	.no-desktop {
+		display: none;
 	}
 	.header-title {
 		font-size: 3rem;
@@ -677,12 +701,18 @@ footer .container {
 	.about-card-text {
 		font-size: 1.225rem;
 	}
+	.section-title {
+		font-size: 2.475rem;
+	}
 }
   
 @media (min-width:1281px) and (max-width:1530px) {
 	/* Desktop - Laptops*/
 	html {
 		font-size: 14px;
+	}
+	.no-desktop {
+		display: none;
 	}
 	.header-title {
 		font-size: 3rem;
@@ -702,6 +732,9 @@ footer .container {
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 1.3rem; 
 	}
+	.section-title {
+		font-size: 2.475rem;
+	}
 }
 
 @media (min-width:1531px) and (max-width:1612px) {
@@ -712,6 +745,12 @@ footer .container {
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 0.9375rem;
 	}
+	.section-title {
+		font-size: 2.475rem;
+	}
+	.no-desktop {
+		display: none;
+	}
   }
   
   @media (min-width:1613px) {
@@ -721,5 +760,11 @@ footer .container {
 	}
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 0.9375rem;
+	}
+	.section-title {
+		font-size: 2.475rem;
+	}
+	.no-desktop {
+		display: none;
 	}
   }
