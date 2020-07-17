@@ -276,6 +276,11 @@ img {
 	padding-top: 5rem;
 }
 
+.about a.about-card-text {
+	text-decoration: none;
+	color: #fff;
+}
+
 .about .col-lg-3 {
 	margin: 5rem 0;
 	border-radius: 6px;
@@ -326,6 +331,8 @@ img {
 .about-card-text {
 	font-size: 1.05rem;
 	opacity: 0.5;
+	font-weight: 400;
+	color: #222;
 }
 
 .projects {
