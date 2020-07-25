@@ -226,6 +226,11 @@ img {
 	max-width: 100%;
 }
 
+.intern-logos {
+	width: 170px;
+	filter: grayscale(1);
+}
+
 .header-caption .row {
 	height: 100%;
 }
