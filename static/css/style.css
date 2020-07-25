@@ -228,7 +228,15 @@ img {
 
 .intern-logos {
 	width: 170px;
-	filter: grayscale(1);
+}
+
+.margin-8 {
+	margin-top: 8rem;
+}
+
+.thinker {
+	border-radius: 200px;
+	width: 180px;
 }
 
 .header-caption .row {
