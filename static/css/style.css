@@ -37,6 +37,7 @@ header {
 	height: 100vh;
 	display: flex;
 	align-items: center;
+	background-color: #efefef;
 	color: #222222;
 }
 
@@ -402,7 +403,7 @@ img {
 
 .preloader-img {
 	margin-top: 20vh;
-	max-height: 400px;
+	max-height: 200px;
 }
 
 .height-0 {
