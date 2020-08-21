@@ -279,7 +279,7 @@ img {
 .content-body {
 	font-size: 1.25rem;
 	margin-bottom: 2rem;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 .about {
@@ -340,7 +340,7 @@ img {
 
 .about-card-text {
 	font-size: 1.05rem;
-	opacity: 0.5;
+	opacity: 0.8;
 	font-weight: 400;
 	color: #222;
 }
