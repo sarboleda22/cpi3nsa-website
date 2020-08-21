@@ -79,6 +79,10 @@ img {
 	margin: 15rem auto !important;
 }
 
+.mobile-no-margin {
+	display: none;
+}
+
 .mb-5 {
 	margin-bottom: 5rem !important;
 }
@@ -470,6 +474,9 @@ footer .container {
 	.mobile {
 		display: inherit;
 	}
+	.mobile-no-margin {
+		display: inherit;
+	}
 	.navbar-brand img {
 		height: 40px;
 	}
@@ -516,6 +523,9 @@ footer .container {
 		font-size: 10.5px;
 	}
 	.mobile {
+		display: inherit;
+	}
+	.mobile-no-margin {
 		display: inherit;
 	}
 	.navbar-brand img {
@@ -573,6 +583,9 @@ footer .container {
 	.mobile {
 		display: inherit;
 	}
+	.mobile-no-margin {
+		display: inherit;
+	}
 	.navbar-brand img {
 		height: 40px;
 	}
@@ -623,6 +636,9 @@ footer .container {
 	  font-size: 12px;
 	}
 	.mobile {
+		display: inherit;
+	}
+	.mobile-no-margin {
 		display: inherit;
 	}
 	.no-mobile {
