@@ -81,6 +81,7 @@ img {
 
 .mobile-no-margin {
 	display: none;
+	margin: 0 !important;
 }
 
 .mb-5 {
